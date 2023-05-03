@@ -1,18 +1,122 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Eczar">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=New+Rocker">
 </head>
 <body>
+    <div class="bg"></div>
     <div class="nav-container">
-        <div class="nav">
+        <div class="nav bg-blur">
             <div class="logo-tile main-item-bg">
-            <div class="logo">Aranthoz</div>
+                <div class="logo move-down-on-click"><a href="#" class="" >Aranthoz</a></div>
+            </div>
+            <div class="nav-item">
+                <a href="#compendium" class="item-title move-down-on-click">Compendium</a>
+                <div class="dropdown-container">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item btn move-down-on-click">The Republic of Aranthoz</a>
+                        <a href="#" class="dropdown-item btn move-down-on-click">Game Rules</a>
+                        <a href="#" class="dropdown-item btn move-down-on-click">Player Handbook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#adventures" class="item-title move-down-on-click">Adventures</a>
+                <div class="dropdown-container">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item btn move-down-on-click">A Knight to Remember</a>
+                        <a href="#" class="dropdown-item btn move-down-on-click">A Fork, the Witch and the Drug Emperor</a>
+                        <a href="#" class="dropdown-item btn move-down-on-click">Eleonoras Blood Festival of Doom</a>
+                        <a href="#" class="dropdown-item btn move-down-on-click">The Siege of Easval</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#blog" class="item-title move-down-on-click">Blog</a>
+            </div>
+            <div class="nav-item">
+                <div class="item-title">More</div>
+                <div class="dropdown-container">
+                    <div class="dropdown">
+                        <a href="#artworks" class="dropdown-item btn move-down-on-click">Artworks</a>
+                        <a href="#newsletter" class="dropdown-item btn move-down-on-click">Newsletter</a>
+                        <a href="#" class="dropdown-item btwn move-down-on-click external">Merch</a>
+                        <a href="https://github.com/nifranz/aranthoz/" class="dropdown-item btn external move-down-on-click" target="_blank" rel="noopener noreferrer">FoundryVTT Game-System</a>
+                    </div>
+                </div>
+            </div>
+            <div class="play-btn main-item-bg move-down-on-click"><a href="https://world.aranthoz.com" class="move-down-on-click">Enter World</a></div>
         </div>
-        <div class="nav-item">Artworks</div>
-        <div class="nav-item">Player Handbook</div>
-        <div class="nav-item">Newsletter</div>
-        <div class="play-btn main-item-bg">Enter World</div>
     </div>
     <div class="content">
-        
+        <div class="main-heading-container">
+            <div class="flex-1"></div>
+            <div class="main-heading">
+                <h1>EMBARK ON EPIC ADVENTURES</h1>
+                <p class="main-description"> In this PNP roleplaying game set in the post-apocalyptic medieval Republic of Aranthoz, you'll take on the roles of powerful heroes and explore a rich and detailed world filled with danger and intrigue. With a flexible rules system and a focus on immersive storytelling, this game is perfect for both veteran roleplayers and those new to the genre. So gather your party, sharpen your swords, and prepare to delve into a world of wonder and peril. The fate of the kingdom rests in your hands!</p>
+                <div class="main-links">
+                    <div class="learn-more btn move-down-on-click"><a class="" href="#">Learn more</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="tiles bg-blur">
+            <div class="tile" style="--clr-dark: #074038; --clr: #15584ce4; --clr-faded:#18757a8e; background-image: url(static/glasslibrary.jpg);">
+                <div id="compendium" class="nav-hook"></div>
+                <div class="tile-content">
+                    <div class="tile-header">
+                        <h2>Compendium</h2>
+                    </div>
+                    <p class="tile-description">Explore the vast and intricate world of Aranthoz through our Compendium and Knowledgebase. Delve into the lore and history of this fantastical realm, and learn about its diverse inhabitants and their unique cultures. From the geography of its sprawling landscapes to the political intrigue of its warring factions, our Compendium and Knowledgebase offer a wealth of information to deepen your understanding of Aranthoz and enhance your role-playing experience.</p>
+                    <div class="learn-more btn move-down-on-click">Sign up!</div>
+                </div>
+                <div class="tile-fade"></div>
+            </div>
+            <div class="tile" style="--clr-dark: #021b21; --clr: #0f404f; --clr-faded:#18808877; background-image: url(static/adventurers.jpg);">
+                <div id="adventures" class="nav-hook"></div>
+                <div class="tile-content">
+                    <div class="tile-header">
+                        <h2>Adventures</h2>
+                    </div>
+                    <p class="tile-description">Embark on epic quests and daring adventures in the world of Aranthoz with our purchasable adventures. Designed by experienced game masters, each adventure is carefully crafted to challenge and engage players of all levels. Whether you're a seasoned role-player or new to the game, our adventures offer a thrilling and immersive experience. From battling fearsome dragons to unraveling ancient mysteries, our purchasable adventures provide endless hours of entertainment and excitement.</p>
+                    <div class="learn-more btn move-down-on-click">Sign up!</div>
+                </div>
+                <div class="tile-fade"></div>
+            </div>
+            <div class="tile" style="--clr-dark: #01160a; --clr: #003025e4; --clr-faded:#003520a4 ;background-image: url(static/noticeboard.jpg);">
+                <div id="blog" class="nav-hook"></div>
+                <div class="tile-content">
+                    <div class="tile-header">
+                        <h2>DevBlog</h2>
+                    </div>
+                    <p class="tile-description">Stay up to date with the latest news and insights from the world of Aranthoz through our DevBlog. Our team of writers and game designers regularly share their thoughts on everything from character creation and game mechanics to world-building and storytelling. Dive into the creative process behind the making of Aranthoz, and gain valuable tips and tricks to improve your gameplay. With engaging content and regular updates, our Blog is a must-read for any fan of pen and paper role-playing games.</p>
+                    <div class="learn-more btn move-down-on-click">Sign up!</div>
+                </div>
+                <div class="tile-fade"></div>
+            </div>
+            <div class="tile" style="--clr-dark: #241603; --clr: #4c3a13fb; --clr-faded:#664f22a6 ;background-image: url(static/painter.jpg);">
+                <div id="artworks" class="nav-hook"></div>
+                <div class="tile-content">
+                    <div class="tile-header">
+                        <h2>Artworks</h2>
+                    </div>
+                    <p class="tile-description">Immerse yourself in the stunning visuals of Aranthoz with our collection of artworks. Featuring illustrations of iconic characters, breathtaking landscapes, and epic battles, our artworks bring the world of Aranthoz to life like never before. Created by talented artists from around the world, our artworks showcase the diverse and captivating elements of this fantastical realm. Whether you're a fan of fantasy art or simply appreciate beautiful visuals, our collection of artworks is sure to inspire and captivate you.</p>
+                    <div class="learn-more btn move-down-on-click">Sign up!</div>
+                </div>
+                <div class="tile-fade"></div>
+            </div>
+            <div class="tile" style="--clr-dark: #322d20; --clr: #4a402bfb; --clr-faded:#544e3ba6; background-image: url(static/letterbox.jpg);">
+                <div id="newsletter" class="nav-hook"></div>
+                <div class="tile-content">
+                    <div class="tile-header">
+                        <h2>Newsletter</h2>
+                    </div>
+                    <p class="tile-description">Looking for the latest announcements on exciting new adventures or features in the world of Aranthoz? Look no further, here you can sign-up for our newsletter!</p>
+                    <div class="learn-more btn move-down-on-click">Sign up!</div>
+                </div>
+                <div class="tile-fade"></div>
+            </div>
+        </div>
     </div>
 </body>
